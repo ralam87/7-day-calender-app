@@ -1,0 +1,109 @@
+
+body{
+    font-family: sans-serif;
+    }
+
+#title {
+margin: auto;
+    
+}
+
+.actBox{
+    position: relative;
+    bottom: 30px;
+    padding: 30px 60px;
+    border: 2px dotted grey;
+    font-size: 15px;
+    font-weight: bold;
+    color: green;
+    margin-top: 70px;
+}
+
+#enjoyment, #achievement {
+    position: relative;
+    display: inline;
+    right: 400px;
+    font-size: 20px;
+    padding: 30px 40px;
+    
+}
+
+#title {
+    color: lightcoral;
+    text-align: left
+
+}
+
+.tableRow td{
+    position: relative;
+    margin: auto;
+    font-weight: bold
+}
+
+.addScreen{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+    background-color: lightsteelblue;
+    width: 250px;
+    height: 250px;
+    z-index: 10;
+    margin: auto;
+    
+    border-radius: 5%;
+
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.addScreen p {
+    padding-top: 10px;
+    
+}
+
+#confirmButton{
+    position: relative;
+    left: 100px;
+    bottom: 10px;
+  font-weight: bold;  
+  border-radius: 50%;
+  border: none;
+  width: 40px;
+  height: 40px;
+  background-color: lightgreen;
+  
+  
+}
+
+
+.achievementClass,
+.enjoymentClass  {
+    position: relative;
+    right: 100px;
+    margin: 20px;
+    bottom: 30px;
+    padding: 30px 60px;
+    border: 2px dotted grey;
+    font-size: 15px;
+    font-weight: bold;
+    color: green;
+    
+}
+
+.achievementThClass,
+.enjoymentThClass  {
+    position: relative;
+    left: 100px;
+    padding: 10px 50px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: right;
+    
+    
+    
+}
+
